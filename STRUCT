@@ -53,12 +53,18 @@ case 1:
     cargar (a);
     system ("cls");
     system ("pause");
+    break;
 case 2:
     mostrar (a);
     system ("cls");
     system ("pause");
+    break;
 case 0:
     return 0;
+    break;
+default:
+cout << "Opcion INCORRECTA"<<endl;
+break;
 }
     
 }
